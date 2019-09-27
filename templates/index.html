@@ -1,10 +1,23 @@
 <html>
     <body>
         <h1>Enter your command</h1>
-        <form name='form' method="POST" action="command">
+        <form name='form' method="POST" action="">
             {% csrf_token %}
             <input type='text' name='command'/>
             <input type='submit' name='submit' value='Submit'/>
+            <ul>
+                <li>service start/stop</li>
+                <li>send mail</li>
+                <li>hadoop cluster</li>
+                <li>shell in a box</li>
+                <li>docker</li>
+                <li>launch firefox</li>
+                <li>elastic container</li>
+                <li>storage bucket</li>
+                <li>dick partition</li>
+                <li>lvm create</li>
+            </ul>
+            
         </form>
     </body>
 </html>

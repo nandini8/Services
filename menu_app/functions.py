@@ -8,26 +8,28 @@
     Create a hadoop cluster
 '''
 
-from playbooks import *
+from .playbooks import *
 
 def start_a_service():
-    pass
+    return("Service Started")
 
 def docker_image():
-    pass
+    return("Docker image Launched")
 
 def shellinabox():
-    pass
+    return("Opened Shell in a box")
 
 def firefox():
-    pass
+    return("Opened firefox")
 
 def ec2():
-    pass
+    return("Created an ec2 instance")
 
 def s3():
-    pass
+    return("Created an S3 bucket")
 
 def hadoop():
-    pass
+    return("Created a hadoop cluster")
 
+def send_mail():
+    return("sent mail")
