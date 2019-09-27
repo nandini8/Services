@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h1>Enter your command</h1>
+        <form name='form' method="POST" action="command">
+            {% csrf_token %}
+            <input type='text' name='command'/>
+            <input type='submit' name='submit' value='Submit'/>
+        </form>
+    </body>
+</html>
